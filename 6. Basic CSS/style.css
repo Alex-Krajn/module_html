@@ -1,0 +1,15 @@
+* {
+    font-size: 10px;
+}
+
+html {
+    font-size: 10px;
+}
+div {
+    background: url('https://www.petbarn.com.au/media/wysiwyg/shop-everything-cats.gif');
+}
+p {
+    width: 70vw;
+    color: rgba(63, 27, 126, 0.5);
+    background: #ff4444;
+}
