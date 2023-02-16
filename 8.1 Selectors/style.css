@@ -1,0 +1,49 @@
+/* .name, .lastname {
+    color: gold;
+} */
+
+.users, .cats {
+    margin-top: 50px;
+}
+
+.cats .cat .name {
+    color: orange;
+}
+
+.users div {
+    /* Все div-ы внутри класса users */
+}
+
+.users>div {
+    /* Div-ы первой вложенности класса users */
+    background-color: aqua;
+}
+
+.andrey ~ .description {
+    font-weight: bold;
+}
+
+.alex:hover ~ .description {
+    color: red;
+}
+
+.vitaly:hover + .description {
+    color: red !important;
+}
+
+
+.profile {
+    margin-top: 100px;
+}
+
+.profile-file {
+    display: none;
+}
+.profile-load {
+    width: 100px;
+    height: 100px;
+    background-color: #8a2be2;
+}
+.profile-file:checked ~ .profile-load {
+    background-color: #2b86e2;
+}
