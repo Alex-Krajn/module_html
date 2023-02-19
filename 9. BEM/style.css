@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.block {
+    width: 120px;
+    height: 100px;
+    background-color: #39a201;
+    margin-bottom: 10px;
+}
+
+.block-red {
+    background-color: #a81010;
+}
+
+.display {
+    display: none;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+.opacity {
+    opacity: 0.5;
+    /* or */
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.overflow {
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
